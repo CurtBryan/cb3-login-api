@@ -1,0 +1,34 @@
+{
+  "type": "object",
+  "properties": {
+    "username": {
+      "description": "Username, is also the email of user",
+      "type": "string",
+      "format": "email",
+      "required": true
+    },
+    "password": {
+      "description": "Password for the account",
+      "type": "string",
+      "required": true
+    },
+
+    "firstName": {
+      "description": "Password for the account",
+      "type": "string",
+      "required": true
+    },
+    "lastName": {
+      "description": "Password for the account",
+      "type": "string",
+      "required": true
+    },
+    "role": {
+      "description": "role of user",
+      "type": "string",
+      "required": true,
+      "enum": ["admin", "manager", "server", "cook", "bar"]
+    }
+  },
+  "additionalProperties": false
+}

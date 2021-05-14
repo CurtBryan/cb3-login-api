@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "properties": {
+    "username": {
+      "description": "Username, is also the email of user",
+      "type": "string",
+      "format": "email",
+      "required": true
+    },
+    "password": {
+      "description": "Password for the account",
+      "type": "string",
+      "required": true
+    }
+  },
+  "additionalProperties": false
+}

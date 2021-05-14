@@ -1,0 +1,29 @@
+{
+  "name": "note-pos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --coverage --runInBand --silent"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CurtBryan/note-pos.git"
+  },
+  "author": "Curt Bryan III",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CurtBryan/note-pos/issues"
+  },
+  "homepage": "https://github.com/CurtBryan/note-pos#readme",
+  "dependencies": {
+    "@shelf/jest-mongodb": "^1.2.4",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.1",
+    "express": "^4.17.1",
+    "express-jsonschema": "^1.1.6",
+    "jest": "^26.6.3",
+    "mongodb": "^3.6.6"
+  }
+}
